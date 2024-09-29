@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erone Photography</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Erone Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home">
+        <h2>Welcome to Erone Photography</h2>
+        <p>Capturing moments that last a lifetime.</p>
+        <img src="https://static.vecteezy.com/system/resources/previews/027/898/549/non_2x/minimal-modern-japanese-living-room-with-white-and-beige-wallpaper-wooden-walls-parquet-floor-fabric-sofa-carpets-and-decors-illustration-free-photo.jpg" alt="landscape">
+    </div>
+
+    <div id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hi, I'm Erone, a passionate photographer who loves capturing the beauty of the world through my camera.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://i.pinimg.com/564x/37/45/58/3745581578b05391f733ebdbf278a47b.jpg" alt="Photo">
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <img src="https://i.pinimg.com/564x/96/77/a4/9677a45f637b471665e8d1220bee102f.jpg" alt="1">
+            <img src="https://i.pinimg.com/736x/a9/60/17/a96017c37bcae35972c2b3b194869e80.jpg" alt="2">
+            <img src="https://i.pinimg.com/564x/ec/06/4f/ec064fac12f79a5c29cd3b95014d0a98.jpg" alt="3">
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch for inquiries or collaborations.</p>
+        <p>Email: eronephotography@gmail.com</p>
+
+        <form action="submit_form.php" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p> 2024 Erone Photography. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
